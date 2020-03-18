@@ -16,7 +16,7 @@ The instructions for other OSes might be similar, but going to focus on Mac OS h
 
 By default, this will output a CSV of meetings in the past week. Some more options:
 
-```shell script
+```
 > python gcal-summary.py --help
 usage: gcal-summary.py [-h] [--email EMAIL] [--credentials CREDENTIALS]
                        [--categories CATEGORIES] [--start START] [--end END]
