@@ -14,6 +14,14 @@ The instructions for other OSes might be similar, but going to focus on Mac OS h
 1. Open a pipenv shell: `pipenv shell`
 2. Run the script: `python python gcal-summary.py`
 
+Output will be in `calendar.csv` and look like:
+```csv
+"Event Name","Category","Duration"
+"Standup","4","90"
+"Think about thinking","2","360"
+"Ponder my 401k","3","30"
+```
+
 By default, this will output a CSV of meetings in the past week. Some more options:
 
 ```
