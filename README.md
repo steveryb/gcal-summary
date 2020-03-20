@@ -8,7 +8,7 @@ The instructions for other OSes might be similar, but going to focus on Mac OS h
 1. Clone repo: `git clone git@github.com:steveryb/gcal-summary.git`
 1. Install pipenv: `brew install pipenv`
 1. Install packages: `cd gcal-summary; pipenv install`
-1. Download the `configuration.json` file to get credentials to access google calendar, and put it in the `gcal-summary` directory.
+1. Download the `configuration.json` file to get credentials to access google calendar from the [Python Quickstart in Google Calendar Python Guide](https://developers.google.com/calendar/quickstart/python), and put it in the `gcal-summary` directory.
 
 ## Running the script
 1. Open a pipenv shell: `pipenv shell`
